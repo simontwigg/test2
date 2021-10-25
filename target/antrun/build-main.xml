@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <zip destfile="/Users/simontwigg/my-dev/eclipse-workspace/test/target/app.zip">
+    <zipfileset dir="/Users/simontwigg/my-dev/eclipse-workspace/test/target/docker"/>
+    <zipfileset includes="test.jar" dir="/Users/simontwigg/my-dev/eclipse-workspace/test/target"/>
+  </zip>
+</target>
+</project>
